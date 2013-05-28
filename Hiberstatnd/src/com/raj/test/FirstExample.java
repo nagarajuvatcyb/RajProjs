@@ -20,6 +20,7 @@ public class FirstExample {
 		session.beginTransaction().commit();
 
 		System.out.println("Record Inserted Sucessfully");
+		//Session Close
 		session.close();
 	}
 }
